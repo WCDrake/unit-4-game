@@ -1,0 +1,94 @@
+
+body{
+    background:linear-gradient(135deg, #708090 22px, #d9ecff 22px, #d9ecff 24px, transparent 24px, transparent 67px, #d9ecff 67px, #d9ecff 69px, transparent 69px),
+                linear-gradient(225deg, #708090 22px, #d9ecff 22px, #d9ecff 24px, transparent 24px, transparent 67px, #d9ecff 67px, #d9ecff 69px, transparent 69px)0 64px;
+    background-color:#708090;
+    background-size: 64px 128px;
+}
+
+.header {
+    color: white;
+    background-color: orange;
+    font-size: 30px;
+    padding: 10px 0px;
+    width: 20%;
+    text-align: center;
+    margin: 5px;
+}
+
+.description{
+    background-color: beige;
+    color: green;
+    width: 33%;
+    margin: 5px;
+     
+}
+
+
+
+
+#computerGuess {
+    background-color: green;
+    width: 20%;
+    height: 50px;
+    margin: 5px;
+    color: black;
+    
+}
+
+.winLossCounter{
+    background-color: lightblue;
+    width: 13%;
+    height: 50px; 
+    margin: 5px; 
+
+}
+
+#lebron{
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+
+}
+
+#korver{
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+
+}
+#love{
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+
+}
+#smith{
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+
+}
+
+.scoreTitle{
+    background-color: darkslategray;
+    width: 20%;
+    margin: 5px;
+}
+
+.userScore{
+    background-color: darkslategray;
+    width: 20%; 
+    height: 50px;
+    margin: 5px;
+}
+
+#userNumber{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+#computerNumber{
+    font-size: 30px;
+    font-weight: bold;
+}

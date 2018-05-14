@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Crystal Game</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+
+<body>
+    <h1 class="header"> Crystals Collector</h1>
+    <p class="description">
+        You will be given a random number at the start of the game.
+        <br>
+        <br>There are four Cavs below. By clicking on a Cav you will add a specific amount of points to your total score.
+        <br>
+        <br> You win the game by matching your total score to the random number, you lose the game if your total score goes above
+        the random number.
+        <br>
+        <br> The value of each Cav's points is hidden from you until you click on it.
+        <br>
+        <br> When the game starts, the game will change the values of the Cavs points.
+    </p>
+
+        <div id="computerGuess">      
+            <p> Number to "shoot" for: </p>
+            <h1 id= "computerNumber"></h1>
+              
+        </div>
+
+        <div class="winLossCounter">
+            <h1 id= "tally"></h1>
+            <p id= "winCounter"> </p>
+            <p id= "lossCounter"></p>
+        </div>
+    <img src="assets/images/lebron.jpg" alt="Lebron" id="lebron">
+    <img src="assets/images/korver.jpg" alt="Korver" id="korver">
+    <img src="assets/images/smith.jpg" alt="Smith" id="smith">
+    <img src="assets/images/love.jpg" alt="Love" id="love">
+
+    <p class="scoreTitle"> Your Total Score is:</p>
+    <div class="userScore"><h1 id= "userNumber"> </h1></div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/javascript/game.js"></script>
+
+</body>
+
+</html>
